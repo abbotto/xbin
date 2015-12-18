@@ -139,6 +139,6 @@ var xBin = (function() {
     // Pass 'init' the xBin prototype for later instantiation
     xBin.fn.init.prototype = xBin.fn;
 
-    // Return the xBin object and set window.xBin.xBin
+    // Return the xBin object
     return xBin;
 })();
