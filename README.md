@@ -8,6 +8,14 @@ Fetch Binaries with XHR
 * Opera
 * Safari
 
+# Usage
+```javascript
+xBin(url).then(function(response){
+    // Encode the string w/ Base64
+    var base64 = 'data:application/octet-stream;base64,'+btoa(response);
+});
+```
+
 # Resources
 * http://mgran.blogspot.com/2006/08/downloading-binary-streams-with.html
 * http://miskun.com/javascript/internet-explorer-and-binary-files-data-access/
