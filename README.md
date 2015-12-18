@@ -1,7 +1,14 @@
 # xBin
 Fetch Binaries with XHR
 
-# Resources:
+# Support
+* IE8+
+* Chrome
+* Firefox
+* Opera
+* Safari
+
+# Resources
 * http://mgran.blogspot.com/2006/08/downloading-binary-streams-with.html
 * http://miskun.com/javascript/internet-explorer-and-binary-files-data-access/
 * http://stackoverflow.com/questions/9267899/arraybuffer-to-base64-encoded-string
